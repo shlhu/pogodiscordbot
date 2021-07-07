@@ -21,7 +21,6 @@
       "gliscor",
       "goodra",
       "heracross",
-      "hitmonchan",
       "hitmontop",
       "jellicent",
       "kingdra",
@@ -49,7 +48,8 @@
       "steelix",
       "sylveon",
       "togekiss",
-      "toxicroak"
+      "toxicroak",
+      "zebstrika"
    ],
     "great": [
       "aerodactyl",
@@ -78,7 +78,6 @@
       "stunfisk",
       "sylveon",
       "tropius",
-      "whiscash",
       "zweilous"
     ]
   },
@@ -144,8 +143,7 @@
         "Deino", "Zweilous", "Hydreigon",
         "Axew", "Fraxure", "Haxorus",
         "Timburr", "Gurdurr", "Conkeldurr",
-        "Klink", "Klang", "Klinklang",
-        "Darumaka", "Darmanitan"
+        "Klink", "Klang", "Klinklang"
       ]
     ],
     [
@@ -160,6 +158,7 @@
         "Beldum", "Metang", "Metagross",
         "Cranidos", "Rampardos",
         "Litwick", "Lampent", "Chandelure"
+        "Darumaka", "Darmanitan"
       ]
     ]
   ],
