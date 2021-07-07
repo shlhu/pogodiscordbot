@@ -8,6 +8,35 @@
     "346733317699141632": "axew"
   },
   "pvpSpec": {
+    "great": [
+      "aerodactyl",
+      "alomomola",
+      "altaria",
+      "aromatisse",
+      "azumarill",
+      "bastiodon",
+      "bellossom",
+      "castform (rainy)",
+      "castform (snowy)",
+      "chansey",
+      "cradily",
+      "emolga",
+      "golbat",
+      "goodra",
+      "hitmontop",
+      "jellicent",
+      "lickitung",
+      "mandibuzz",
+      "nidoqueen",
+      "ninetales (alolan)",
+      "pachirisu",
+      "sableye",
+      "scrafty",
+      "stunfisk",
+      "sylveon",
+      "tropius",
+      "zweilous"
+    ],
     "ultra": [
       "aromatisse",
       "bellossom",
@@ -50,35 +79,6 @@
       "togekiss",
       "toxicroak",
       "zebstrika"
-   ],
-    "great": [
-      "aerodactyl",
-      "alomomola",
-      "altaria",
-      "aromatisse",
-      "azumarill",
-      "bastiodon",
-      "bellossom",
-      "castform (rainy)",
-      "castform (snowy)",
-      "chansey",
-      "cradily",
-      "emolga",
-      "golbat",
-      "goodra",
-      "hitmontop",
-      "jellicent",
-      "lickitung",
-      "mandibuzz",
-      "nidoqueen",
-      "ninetales (alolan)",
-      "pachirisu",
-      "sableye",
-      "scrafty",
-      "stunfisk",
-      "sylveon",
-      "tropius",
-      "zweilous"
     ]
   },
   "oldSourceChannels": {
@@ -87,209 +87,378 @@
     "388103067930984448": "bagon",
     "388103024679190528": "beldum"
   },
-  "sourceChannelsOrig": ["348769770671308800", "346754782922276864"],
-  "raidChannel": "347485290056646667",
-  "raidSpec": [
-    [
-      "home",
-      "495628468554301451",
-      [
-        "Crossroads Mural",
-        "Cubberly Cummunity Center",
-        "Space Energy Collector",
-        "Soccer Field No. 1 at Cubberley Community Center",
-        "Friends of the Palo Alto Library"
-      ]
-    ],
-    [
-      "work",
-      "495628510938005506",
-      [
-        "Intuit Bldg 3a Fountain",
-        "Zone 4 Swing",
-        "Lion Heart 2",
-        "Crouching Greyhound",
-        "Facebook 'Like' Sign",
-        "Marvin Avenue Chess Club",
-        "Shore Trail 2",
-        "Bay Trail",
-        "Golden-Crowned Sparrow",
-        "Facebook Friends",
-        "Hamilton park",
-        "Waves Of Color"
-      ]
-    ],
-    [
-      "nearby-ex",
-      "671834042840383518",
-      [
-        "Ramos Park",
-        "Thaddeus Playground",
-        "Thaddeus Park",
-        "El Palo Nuevo Plaque",
-        "After the Fire by Bruce Johnson"
-      ]
-    ]
+  "sourceChannelsOrig": [
+    "348769770671308800",
+    "346754782922276864"
   ],
-  "sourceChannelMVPA": "349131228890267648",
-  "sourceChannelTWEET": "346733581814726657",
+  "raidChannel": "347485290056646667",
+  "raidSpec": {
+    "filters": [
+      "Level 5",
+      "Articuno",
+      "Azelf",
+      "Cobalion",
+      "Cresselia",
+      "Darkrai",
+      "Deoxys",
+      "Dialga",
+      "Entei",
+      "Genesect",
+      "Giratina",
+      "Giratina Origin",
+      "Groudon",
+      "Heatran",
+      "Ho-Oh",
+      "Kyogre",
+      "Kyurem",
+      "Landorus",
+      "Latias",
+      "Latios",
+      "Lugia",
+      "Mesprit",
+      "Mewtwo",
+      "Moltres",
+      "Palkia",
+      "Raikou",
+      "Rayquaza",
+      "Regice",
+      "Regigigas",
+      "Regirock",
+      "Registeel",
+      "Reshiram",
+      "Suicune",
+      "Terrakion",
+      "Thundurus",
+      "Tornadus",
+      "Uxie",
+      "Virizion",
+      "Xerneas",
+      "Yveltal",
+      "Zapdos",
+      "Zekrom"
+    ],
+    "gyms": [
+      [
+        "home",
+        "495628468554301451",
+        [
+          "Crossroads Mural",
+          "Cubberly Cummunity Center",
+          "Space Energy Collector",
+          "Soccer Field No. 1 at Cubberley Community Center",
+          "Friends of the Palo Alto Library",
+          "Palo Alto Gardens Playground"
+        ]
+      ],
+      [
+        "work",
+        "495628510938005506",
+        [
+          "Intuit Bldg 3a Fountain",
+          "Zone 4 Swing",
+          "Lion Heart 2",
+          "Crouching Greyhound",
+          "Facebook 'Like' Sign",
+          "Marvin Avenue Chess Club",
+          "Shore Trail 2",
+          "Bay Trail",
+          "Golden-Crowned Sparrow",
+          "Facebook Friends",
+          "Hamilton park",
+          "Waves Of Color"
+        ]
+      ],
+      [
+        "nearby-ex",
+        "671834042840383518",
+        [
+          "Ramos Park",
+          "Thaddeus Playground",
+          "Thaddeus Park",
+          "El Palo Nuevo Plaque",
+          "After the Fire by Bruce Johnson"
+        ]
+      ]
+    ],
+    "sourceChannelMVPA": "349131228890267648",
+    "sourceChannelTWEET": "346733581814726657"
+  },
   "ultra": [
     [
-      "0", [
+      "0",
+      [
         "Hitmontop",
-        "Shieldon", "Bastiodon",
-        "Togepi", "Togetic", "Togekiss",
-        "Gible", "Gabite", "Garchomp",
-        "Deino", "Zweilous", "Hydreigon",
-        "Axew", "Fraxure", "Haxorus",
-        "Timburr", "Gurdurr", "Conkeldurr",
-        "Klink", "Klang", "Klinklang"
+        "Shieldon",
+        "Bastiodon",
+        "Togepi",
+        "Togetic",
+        "Togekiss",
+        "Deino",
+        "Zweilous",
+        "Hydreigon",
+        "Axew",
+        "Fraxure",
+        "Haxorus",
+        "Timburr",
+        "Gurdurr",
+        "Conkeldurr",
+        "Klink",
+        "Klang",
+        "Klinklang"
       ]
     ],
     [
-      "30", [
-        "Chansey", "Blissey",
+      "30",
+      [
+        "Chansey",
+        "Blissey",
         "Lapras",
         "Snorlax",
-        "Larvitar", "Pupitar", "Tyranitar",
-        "Slakoth", "Vigoroth", "Slaking",
-        "Clamperl", "Huntail", "Gorebyss",
-        "Bagon", "Shelgon", "Salamence",
-        "Beldum", "Metang", "Metagross",
-        "Cranidos", "Rampardos",
-        "Litwick", "Lampent", "Chandelure",
-        "Darumaka", "Darmanitan"
+        "Larvitar",
+        "Pupitar",
+        "Tyranitar",
+        "Slakoth",
+        "Vigoroth",
+        "Slaking",
+        "Clamperl",
+        "Huntail",
+        "Gorebyss",
+        "Bagon",
+        "Shelgon",
+        "Salamence",
+        "Beldum",
+        "Metang",
+        "Metagross",
+        "Cranidos",
+        "Rampardos",
+        "Litwick",
+        "Lampent",
+        "Chandelure",
+        "Gible",
+        "Gabite",
+        "Garchomp",
+        "Darumaka",
+        "Darmanitan"
       ]
     ]
   ],
   "trash": [
     [
-      "30", [
-        "Pidgey", "Pidgeotto", "Pidgeot",
-        "Weedle", "Kakuna", "Beedrill",
-        "Caterpie", "Metapod", "Butterfree",
-        "Rattata", "Raticate",
-        "Ekans", "Arbok",
-        "Sandshrew", "Sandslash",
-        "Nidoran", "Nidorino", "Nidoking", "Nidorina", "Nidoqueen",
-        "Paras", "Parasect",
-        "Tentacool", "Tentacruel",
+      "30",
+      [
+        "Pidgey",
+        "Pidgeotto",
+        "Pidgeot",
+        "Weedle",
+        "Kakuna",
+        "Beedrill",
+        "Caterpie",
+        "Metapod",
+        "Butterfree",
+        "Rattata",
+        "Raticate",
+        "Ekans",
+        "Arbok",
+        "Nidoran",
+        "Nidorino",
+        "Nidoking",
+        "Nidorina",
+        "Nidoqueen",
+        "Paras",
+        "Parasect",
+        "Tentacool",
+        "Tentacruel",
         "Koffing",
-        "Zubat", "Golbat", "Crobat",
-        "Mankey", "Primeape",
-        "Diglett", "Dugtrio",
-        "Doduo", "Dodrio",
-        "Jigglypuff", "Wigglytuff",
-        "Vulpix", "Ninetales",
+        "Zubat",
+        "Golbat",
+        "Crobat",
+        "Mankey",
+        "Primeape",
+        "Diglett",
+        "Dugtrio",
+        "Doduo",
+        "Dodrio",
+        "Jigglypuff",
+        "Wigglytuff",
+        "Vulpix",
+        "Ninetales",
         "Exeggcute",
         "Cubone",
-        "Growlithe", "Arcanine",
+        "Growlithe",
+        "Arcanine",
         "Eevee ♂",
-        "Hoothoot", "Noctowl",
-        "Sentret", "Furret",
-        "Venonat", "Venomoth",
-        "Spinarak", "Ariados",
-        "Houndour", "Houndoom",
-        "Slugma", "Marcargo",
-        "Snubbull", "Granbull",
-        "Aipom", "Ambipom",
-        "Yanma", "Yanmega",
-        "Murkrow", "Honchkrow",
+        "Hoothoot",
+        "Noctowl",
+        "Sentret",
+        "Furret",
+        "Venonat",
+        "Venomoth",
+        "Spinarak",
+        "Ariados",
+        "Houndour",
+        "Houndoom",
+        "Slugma",
+        "Marcargo",
+        "Snubbull",
+        "Granbull",
+        "Aipom",
+        "Ambipom",
+        "Yanma",
+        "Yanmega",
+        "Murkrow",
+        "Honchkrow",
         "Dunsparce",
-        "Hoppip", "Skiploom", "Jumpluff",
+        "Hoppip",
+        "Skiploom",
+        "Jumpluff",
         "Misdreavus",
-        "Zigzagoon", "Linoone",
-        "Poochyena", "Mightyena",
-        "Taillow", "Swellaw",
-        "Seedot", "Nuzleaf", "Shiftry",
-        "Whismur", "Loudred", "Exploud",
-        "Skitty", "Delcatty",
-        "Gulpin", "Swalot",
-        "Makuhita", "Hariyama",
-        "Plusle", "Minun",
-        "Electrike", "Manetric",
+        "Zigzagoon",
+        "Linoone",
+        "Poochyena",
+        "Mightyena",
+        "Taillow",
+        "Swellaw",
+        "Seedot",
+        "Nuzleaf",
+        "Shiftry",
+        "Whismur",
+        "Loudred",
+        "Exploud",
+        "Skitty",
+        "Delcatty",
+        "Gulpin",
+        "Swalot",
+        "Makuhita",
+        "Hariyama",
+        "Plusle",
+        "Minun",
+        "Electrike",
+        "Manetric",
         "Illumise",
-        "Castform Sunny", "Castform Normal",
+        "Castform Sunny",
+        "Castform Normal",
         "Luvdisc",
-        "Numel", "Camerupt",
-        "Cacnea", "Cacturne",
-        "Baltoy", "Claydol",
-        "Anorith", "Armaldo",
-        "Lileep", "Cradily",
-        "Buneary", "Loppunny",
-        "Bidoof", "Bibarel",
-        "Kricketot", "Kricketune",
+        "Numel",
+        "Camerupt",
+        "Cacnea",
+        "Cacturne",
+        "Baltoy",
+        "Claydol",
+        "Anorith",
+        "Armaldo",
+        "Lileep",
+        "Cradily",
+        "Buneary",
+        "Loppunny",
+        "Bidoof",
+        "Bibarel",
+        "Kricketot",
+        "Kricketune",
         "Cherrim Sunny",
-        "Lillipup", "Herdier", "Stoutland",
-        "Purrloin", "Purugly",
+        "Lillipup",
+        "Herdier",
+        "Stoutland",
+        "Purrloin",
+        "Purugly",
         "Stunky ♂",
-        "Croagunk", "Toxicroak",
-        "Foongus", "Amoonguss"
+        "Croagunk",
+        "Toxicroak",
+        "Foongus",
+        "Amoonguss"
       ],
-      "20", [
+      "20",
+      [
         "Murkrow"
       ]
     ]
   ],
   "channelSpec": [
     [
-      "home-all", [
+      "home-all",
+      [
         "390763340877660161",
-        [37.418539, -122.104058],
+        [
+          37.418539,
+          -122.104058
+        ],
         0.1,
         3,
         6
       ]
     ],
     [
-      "home-ultra", [
+      "home-ultra",
+      [
         "391481043103907842",
-        [37.418539, -122.104058],
+        [
+          37.418539,
+          -122.104058
+        ],
         0,
         0.1,
         4
       ]
     ],
     [
-      "work-all", [
+      "work-all",
+      [
         "391132607842091019",
-        [37.481302, -122.170699],
+        [
+          37.481302,
+          -122.170699
+        ],
         0.2,
         2,
         6
       ]
     ],
     [
-      "global-ultra", [
+      "global-ultra",
+      [
         "391987199878365186",
-        [37.418539, -122.104058],
+        [
+          37.418539,
+          -122.104058
+        ],
         0,
         0,
         100
       ]
     ],
     [
-      "cfb", [
+      "cfb",
+      [
         "393791602231083011",
-        [37.348473, -121.946427],
+        [
+          37.348473,
+          -121.946427
+        ],
         0.1,
         4,
         6
       ]
     ],
     [
-      "san-antonio-all", [
+      "san-antonio-all",
+      [
         "512365224855076895",
-        [37.404355, -122.116113],
+        [
+          37.404355,
+          -122.116113
+        ],
         0.05,
         0.25,
         4
       ]
     ],
     [
-      "los-altos", [
+      "los-altos",
+      [
         "391648232574418945",
-        [37.378894, -122.115874],
+        [
+          37.378894,
+          -122.115874
+        ],
         0.1,
         3,
         6
@@ -297,4 +466,3 @@
     ]
   ]
 }
-

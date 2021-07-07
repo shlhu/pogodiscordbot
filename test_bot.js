@@ -11,7 +11,7 @@ const pvp_ul_re = /Rank 1 ultra league /;
 const coord_re = /q=(-?[0-9\.]+),(-?[0-9\.]+)/;
 const perf_re = /100.0%/
 
-var ultraMap, trashMap, locSpec, raidSpec, pvpUltra, pvpGreat;
+var ultraMap, trashMap, locSpec, raidGyms, raidFilters, pvpUltra, pvpGreat;
 
 function refreshConfig() {
   ultraMap = new Map(config.ultra.map(l =>
@@ -19,8 +19,9 @@ function refreshConfig() {
   trashMap = new Map(config.trash.map(l =>
     [Number(l[0]), new RegExp(l[1].join('|'))]));
   locSpec = new Map(config.channelSpec);
-  raidSpec = new Map(config.raidSpec.map(l =>
+  raidGyms = new Map(config.raidSpec.gyms.map(l =>
     [l[0], [l[1], new RegExp(l[2].join('|'))]]));
+  raidFilters = new RegExp(config.raidSpec.filters.join('|'));
   
   pvpUltra = new RegExp(config.pvpSpec.ultra.join('|'));
   pvpGreat = new RegExp(config.pvpSpec.great.join('|'));
@@ -133,9 +134,9 @@ listenerClient.on("message", message => {
   // Check raids
   } else if (config.raidChannel == message.channel.id) {
     var embed = createEmbed(data);
-    for (let [channel, spec] of raidSpec) {
+    for (let [channel, spec] of raidGyms) {
       console.log(channel);
-      if (spec[1].test(data.title)) {
+      if (spec[1].test(data.title) && raidFilters.test(data.title)) {
         senderClient.channels.get(spec[0]).send({embed});
         console.log("Sent.");
       } else {
