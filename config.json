@@ -10,9 +10,7 @@
   "pvpSpec": {
     "great": [
       "aerodactyl",
-      "alomomola",
       "altaria",
-      "aromatisse",
       "azumarill",
       "bastiodon",
       "bellossom",
@@ -43,7 +41,6 @@
       "bouffalant",
       "bronzong",
       "cradily",
-      "darmanitan",
       "dragalge",
       "drifblim",
       "ferrothorn",
@@ -189,8 +186,6 @@
       "0",
       [
         "Hitmontop",
-        "Shieldon",
-        "Bastiodon",
         "Togepi",
         "Togetic",
         "Togekiss",
@@ -232,6 +227,8 @@
         "Metagross",
         "Cranidos",
         "Rampardos",
+        "Shieldon",
+        "Bastiodon",
         "Litwick",
         "Lampent",
         "Chandelure",
