@@ -10,7 +10,6 @@
   "pvpSpec": {
     "great": [
       "aerodactyl",
-      "altaria",
       "azumarill",
       "bastiodon",
       "bellossom",
@@ -19,10 +18,9 @@
       "chansey",
       "cradily",
       "emolga",
-      "golbat",
+      "falinks",
       "goodra",
       "hitmontop",
-      "jellicent",
       "lickitung",
       "mandibuzz",
       "nidoqueen",
@@ -31,7 +29,6 @@
       "sableye",
       "scrafty",
       "stunfisk",
-      "sylveon",
       "tropius",
       "zweilous"
     ],
@@ -43,10 +40,12 @@
       "cradily",
       "dragalge",
       "drifblim",
+      "falinks",
       "ferrothorn",
       "forretress",
       "gliscor",
       "goodra",
+      "greedent",
       "heracross",
       "hitmontop",
       "jellicent",
@@ -59,7 +58,6 @@
       "muk",
       "nidoqueen",
       "ninetales (alolan)",
-      "pangoro",
       "pelipper",
       "piloswine",
       "politoed",
@@ -73,10 +71,8 @@
       "shiftry",
       "skuntank",
       "steelix",
-      "sylveon",
       "togekiss",
-      "toxicroak",
-      "zebstrika"
+      "toxicroak"
     ]
   },
   "oldSourceChannels": {
