@@ -35,18 +35,20 @@
       "skuntank",
       "stunfisk",
       "trevenant",
-      "tropius"
+      "tropius",
+      "walrein"
     ],
     "ultra": [
       "aromatisse",
+      "avalugg",
       "bellossom",
-      "bouffalant",
       "breloom",
       "cofagrigus",
       "cradily",
-      "crobat",
+      "donphan",
       "dragalge",
       "drifblim",
+      "druddigon",
       "falinks",
       "ferrothorn",
       "forretress",
@@ -55,7 +57,6 @@
       "goodra",
       "gourgeist (average)",
       "gourgeist (large)",
-      "gourgeist (small)",
       "gourgeist (super)",
       "granbull",
       "heracross",
@@ -70,8 +71,8 @@
       "muk",
       "ninetales (alolan)",
       "pangoro",
+      "piloswine",
       "politoed",
-      "poliwrath",
       "primeape",
       "roserade",
       "sandslash (alolan)",
@@ -86,7 +87,8 @@
       "steelix",
       "togekiss",
       "toxicroak",
-      "trevenant"
+      "trevenant",
+      "walrein"
     ]
   },
   "oldSourceChannels": {
