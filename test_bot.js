@@ -1,8 +1,9 @@
 const Discord = require("discord.js");
 const config = require("./config.json");
 const GeoPoint = require('geopoint');
+const { Client } = require('discord.js-selfbot-v13');
 
-const listenerClient = new Discord.Client();
+const listenerClient = new Client();
 const senderClient = new Discord.Client();
 
 const lvl_re = /L(\d)+/;
