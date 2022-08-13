@@ -118,7 +118,7 @@ listenerClient.on("ready", () => {
 listenerClient.login(process.env.LISTENER_TOKEN);
 senderClient.login(process.env.SENDER_TOKEN);
 
-listenerClient.on("message", message => {
+listenerClient.on("messageCreate", message => {
   var data = message.embeds[0];
   // Check pogeys
   if (message.channel.id in config.sourceChannels) {
