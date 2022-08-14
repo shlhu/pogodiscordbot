@@ -30,7 +30,6 @@
       "mandibuzz",
       "marowak (alolan)",
       "ninetales (alolan)",
-      "obstagoon",
       "overqwil",
       "pachirisu",
       "qwilfish (hisuian)",
@@ -76,7 +75,6 @@
       "mandibuzz",
       "milotic",
       "ninetales (alolan)",
-      "obstagoon",
       "pangoro",
       "piloswine",
       "politoed",
@@ -85,7 +83,6 @@
       "primeape",
       "sandslash (alolan)",
       "scizor",
-      "scolipede",
       "scrafty",
       "seismitoad",
       "shiftry",
@@ -371,7 +368,8 @@
         "Foongus",
         "Amoonguss",
         "Skwovet",
-        "Greedent"
+        "Greedent",
+        "Venipede"
       ],
       "20",
       [
