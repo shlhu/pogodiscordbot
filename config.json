@@ -10,7 +10,6 @@
   "pvpSpec": {
     "great": [
       "aerodactyl",
-      "araquanid",
       "buzzwole",
       "castform (rainy)",
       "castform (snowy)",
@@ -88,7 +87,6 @@
       "shiftry",
       "skuntank",
       "steelix",
-      "toxicroak",
       "trevenant",
       "zebstrika"
     ]
@@ -149,6 +147,8 @@
       "Virizion",
       "Xerneas",
       "Yveltal",
+      "Zacian",
+      "Zamazenta",
       "Zapdos",
       "Zekrom"
     ],
@@ -169,18 +169,9 @@
         "work",
         "495628510938005506",
         [
-          "Intuit Bldg 3a Fountain",
-          "Zone 4 Swing",
-          "Lion Heart 2",
-          "Crouching Greyhound",
-          "Facebook 'Like' Sign",
-          "Marvin Avenue Chess Club",
-          "Shore Trail 2",
-          "Bay Trail",
-          "Golden-Crowned Sparrow",
-          "Facebook Friends",
-          "Hamilton park",
-          "Waves Of Color"
+          "Cubatron",
+          "Tetrahelix",
+          "Garfield Park"
         ]
       ],
       [
