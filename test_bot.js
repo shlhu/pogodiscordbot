@@ -9,8 +9,9 @@ const senderClient = new Discord.Client();
 const lvl_re = /L(\d)+/;
 const pvp_gl_re = /Rank 1 great league /;
 const pvp_ul_re = /Rank 1 ultra league /;
-const coord_re = /q=(-?[0-9\.]+),(-?[0-9\.]+)/;
-const perf_re = /100.0%/
+const coord_re1 = /q=(-?[0-9\.]+),(-?[0-9\.]+)/;
+const coord_re2 = /query=(-?[0-9\.]+),(-?[0-9\.]+)/;
+const perf_re = /100%/
 
 var ultraMap, trashMap, locSpec, raidGyms, raidFilters, pvpUltra, pvpGreat;
 
@@ -99,7 +100,13 @@ function isTrash(header) {
 
 function toSend(data, spec) {
   const start = new GeoPoint(spec[1][0], spec[1][1]);
-  const coord = data.url.match(coord_re);
+  console.log(data);
+  var coord = [];
+  if (data.url) {
+    coord = data.url.match(coord_re1);
+  } else {
+    coord = data.description.match(coord_re2);
+  }
   const end = new GeoPoint(Number(coord[1]),Number(coord[2]));
   const dist = start.distanceTo(end);
   console.log("Distance: " + dist);
