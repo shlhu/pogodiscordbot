@@ -6,7 +6,8 @@ const { Client } = require('discord.js-selfbot-v13');
 const listenerClient = new Client();
 const senderClient = new Discord.Client();
 
-const lvl_re = /L(\d)+/;
+const lvl_re1 = /L(\d+)/;
+const lvl_re2 = /L:(\d+)/;
 const pvp_gl_re = /Rank 1 great league /;
 const pvp_ul_re = /Rank 1 ultra league /;
 const coord_re1 = /q=(-?[0-9\.]+),(-?[0-9\.]+)/;
@@ -71,10 +72,18 @@ function isPvp(header) {
   return false;
 }
 
+function getLvl(header) {
+  var monLvl = header.match(lvl_re1)[1];
+  if (!monLvl) {
+    monLvl = header.match(lvl_re2)[1];
+  }
+  return Number(monLvl)
+}
+
 function isUltra(header) {
   for (let [level, reg] of ultraMap) {
     if (reg.test(header) && perf_re.test(header)
-        && Number(header.match(lvl_re)[0].substring(1)) >= level) {
+        && getLvl(header) >= level) {
       return true;
     }
   }
@@ -86,9 +95,10 @@ function isTrash(header) {
     return false;
   }
   for (let [level, reg] of trashMap) {
-    if (reg.test(header) &&
-        Number(header.match(lvl_re)[0].substring(1)) < level &&
-        !header.includes("Ditto")) {
+    if (reg.test(header)
+        && getLvl(header) < level
+        && !header.includes("Ditto")
+      ) {
       return true;
     }
     if (!perf_re.test(header)) {
@@ -100,7 +110,6 @@ function isTrash(header) {
 
 function toSend(data, spec) {
   const start = new GeoPoint(spec[1][0], spec[1][1]);
-  console.log(data);
   var coord = [];
   if (data.url) {
     coord = data.url.match(coord_re1);
