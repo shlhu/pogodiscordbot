@@ -73,11 +73,11 @@ function isPvp(header) {
 }
 
 function getLvl(header) {
-  var monLvl = header.match(lvl_re1)[1];
+  var monLvl = header.match(lvl_re1);
   if (!monLvl) {
-    monLvl = header.match(lvl_re2)[1];
+    monLvl = header.match(lvl_re2);
   }
-  return Number(monLvl)
+  return Number(monLvl[1])
 }
 
 function isUltra(header) {
