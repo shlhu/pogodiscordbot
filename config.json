@@ -1,7 +1,7 @@
 {
   "sourceChannels": {
     "348769770671308800": "100iv",
-    "784736616915795990": "pvptop20"
+    "784735955328172062": "pvpoptimal"
   },
   "pvpSpec": {
     "great": [
@@ -43,7 +43,6 @@
       "cofagrigus",
       "donphan",
       "dragalge",
-      "dragonite",
       "drifblim",
       "druddigon",
       "dubwool",

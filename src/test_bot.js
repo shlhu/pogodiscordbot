@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const config = require("./config.json");
+const config = require("../config.json");
 const GeoPoint = require('geopoint');
 const { Client } = require('discord.js-selfbot-v13');
 
@@ -8,8 +8,8 @@ const senderClient = new Discord.Client();
 
 const lvl_re1 = /L(\d+)/;
 const lvl_re2 = /L:(\d+)/;
-const pvp_gl_re = /Rank 1 great league /;
-const pvp_ul_re = /Rank 1 ultra league /;
+const pvp_gl_re = /Great league:[^:]*#1 /;
+const pvp_ul_re = /Ultra league:[^:]*#1 /;
 const coord_re1 = /q=(-?[0-9\.]+),(-?[0-9\.]+)/;
 const coord_re2 = /query=(-?[0-9\.]+),(-?[0-9\.]+)/;
 const perf_re = /100%/
