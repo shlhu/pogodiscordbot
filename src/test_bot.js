@@ -10,8 +10,7 @@ const lvl_re1 = /L(\d+)/;
 const lvl_re2 = /L:(\d+)/;
 const pvp_gl_re = /Great league:[^:]*#1 /;
 const pvp_ul_re = /Ultra league:[^:]*#1 /;
-const coord_re1 = /q=(-?[0-9\.]+),(-?[0-9\.]+)/;
-const coord_re2 = /query=(-?[0-9\.]+),(-?[0-9\.]+)/;
+const coord_re = /q(?:uery)?=(-?[0-9\.]+),(-?[0-9\.]+)/;
 const perf_re = /100%/
 
 var ultraMap, trashMap, locSpec, raidGyms, raidFilters, pvpUltra, pvpGreat;
@@ -110,11 +109,12 @@ function isTrash(header) {
 
 function toSend(data, spec) {
   const start = new GeoPoint(spec[1][0], spec[1][1]);
-  var coord = [];
+  var coord = null;
   if (data.url) {
-    coord = data.url.match(coord_re1);
-  } else {
-    coord = data.description.match(coord_re2);
+    coord = data.url.match(coord_re);
+  } 
+  if (!coord) {
+    coord = data.description.match(coord_re);
   }
   const end = new GeoPoint(Number(coord[1]),Number(coord[2]));
   const dist = start.distanceTo(end);
